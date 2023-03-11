@@ -1,13 +1,19 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  if (word.charAt(0) === word.charAt(word.length - 1)) {
+    return true
+  } else {
+    return false
+  }
 }
 
 /* 
-  Add your pseudocode here
+  if the first character matches the last letter in the string 
+  return true 
+  if not then return false 
 */
 
 /*
-  Add written explanation of your solution here
+  if the string's first letter and last letter are the same then it should be a palendrome
 */
 
 // You can run `node index.js` to view these console logs
